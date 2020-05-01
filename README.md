@@ -1,7 +1,7 @@
 # Udacity-Data-Science-Nanodegree-Write-a-Data-Science-Blog-Post
 
-# 1. Libraries
-The libraries that I used were
+# 1. The Libraries
+I used the following libraries
 1. pandas
 2. numpy
 3. matplotlib
@@ -11,26 +11,28 @@ The libraries that I used were
 7. itertools (chain module)
 8. seaborn
 
-# 2. Project Motivation
-I chose to examine the AirBnB data from Seattle to better understand which factors contributed to the price of an AirBnB. I formulated 3 questions using the CRISP-DM process to elucidate the findings.
+# 2. Motivation for project
+I wanted to understand Seattle's AirBnB data to determine the critical determinants of AirBnB's price. The following 3 questions helped me understand that:
 
-- Which neighborhood is the most expensive and which is the cheapest?
-- How do customer reviews factor into the AirBnB? Are there more comments for highly or poorly rated AirBnBs?
-- What factors determine rating? Can we predict rating using a model?
+- What is the role of customer reviews in AirBnB? 
+- Determine the costliest and cheapest areas
+- What are the key determinants of the ratings?
 
-# 3. File Descriptions
-These are the following files I used to complete this analysis:
+# 3. File Details
+The analysis is based on the following files:
 
-1. DataScience_Project1.ipynb: The iPython notebook containing all calculations, figures, and findings pertaining to the project.
-2. calendar.csv: A file containing all of the dates available for listings as well as price
-3. listings.csv: A file containing all of the information for listings
-4. reviews.csv: A file containing reviews for the listings
-# 4. Summary
-The following results are a brief summary of the data exploration contained in the project:
+1. Airbnb_Analyis_v1.ipynb: This is the iPython notebook with the results, graphs and calculations
+2. listings.csv: A csv file with data for listings
+3. calendar_data.csv:A csv file with data on dates available for listings and prices
+4. reviews.csv: A csv file with data on reviews for listings
 
-1. The most expensive neighborhood is Southeast Magnolia and the cheapest is Rainier Beach.
-2. AirBnBs with higher ratings tend to have more comments than AirBnBs with low ratings.
-3. The LinearRegression model found r-squared values of 0.4 and 0.29 for training and test data respectively on rating.
-4. The variables that had the highest effect on rating were transit, and amenities (internet and dogs).
+
+# 4. Results
+The following results were found after the analysis:
+
+1. We saw that the the higher rated AirBnBs on average have more comments compared to lower rated AirBnBs. We found the r-squared values in the Linear regression model (Ordinary least square model) of 0.3 and 0.4 for test and train datasets respectively on rating.
+2. We found that the cheapest neighborhood is Rainier Beach while the most expensive  is Southeast Magnolia.
+4. Transit and amenities (internet and dogs)see to be the key determinants of ratings.
+ 
 # 5. Acknowledgements
-The data was hosted on Kaggle and made available by [AirBnB] (https://www.kaggle.com/airbnb/seattle/data) Thank you to the Udacity team for creating this project and associated lessons.
+The datasets are available on Kaggle and made available by AirBnB (https://www.kaggle.com/airbnb/seattle/data). Speical thanks to the Udacity team as well.
