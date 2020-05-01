@@ -36,3 +36,6 @@ The following results were found after the analysis:
  
 # 5. Acknowledgements
 The datasets are available on Kaggle and made available by AirBnB (https://www.kaggle.com/airbnb/seattle/data). Speical thanks to the Udacity team as well.
+
+# 6. Blog
+The blog based on this analysis can be found here: (https://medium.com/@indranecomist28/what-determines-the-price-you-pay-for-an-airbnb-in-seattle-4ca809f67bd7?sk=5e189b8ad5876f8ee3485c05b1cd96eb)
