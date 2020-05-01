@@ -32,7 +32,7 @@ The following results were found after the analysis:
 
 1. We saw that the the higher rated AirBnBs on average have more comments compared to lower rated AirBnBs. We found the r-squared values in the Linear regression model (Ordinary least square model) of 0.3 and 0.4 for test and train datasets respectively on rating.
 2. We found that the cheapest neighborhood is Rainier Beach while the most expensive  is Southeast Magnolia.
-4. Transit and amenities (internet and dogs)see to be the key determinants of ratings.
+4. Transit and amenities (internet and dogs) seem to be the key determinants of ratings.
  
 # 5. Acknowledgements
 The datasets are available on Kaggle and made available by AirBnB (https://www.kaggle.com/airbnb/seattle/data). Speical thanks to the Udacity team as well.
