@@ -22,9 +22,9 @@ I wanted to understand Seattle's AirBnB data to determine the critical determina
 The analysis is based on the following files:
 
 1. Airbnb_Analyis_v1.ipynb: This is the iPython notebook with the results, graphs and calculations
-2. listings.csv: A csv file with data for listings
-3. calendar_data.csv:A csv file with data on dates available for listings and prices
-4. reviews.csv: A csv file with data on reviews for listings
+2. listings.csv: A csv file with data for listings. 
+3. calendar_data.csv:A csv file with data on dates available for listings and prices.It is available in a zip file called 'calendar.zip' in this github respository. Kindly unzip the file to access the csv file from the repository.
+4. reviews.csv: A csv file with data on reviews for listings.It is available in a zip file called 'reviews.zip' in this github respository. Kindly unzip the file to access the csv file from the repository.
 
 
 # 4. Results
